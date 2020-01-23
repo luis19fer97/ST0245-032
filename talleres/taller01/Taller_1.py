@@ -13,12 +13,16 @@ class Punto2D():
         return math.sqrt(self.x*self.x+self.y*self.y)
     
     def angulo_polar(self):
-      return math.atan2(self.y/self.x)
+      return math.atan2(self.y,self.x)
  
     def dist_euclidiana(self, x, y):
       difx = abs(self.x - x)
       dify = abs(self.y - y)
       return math.sqrt(difx*difx+dify*dify)
+
+print(Punto2D(10,20).radio_polar())
+print(Punto2D(10,20).angulo_polar())
+print(Punto2D(10,20).dist_euclidiana(0,0))
 
 class Date(): #name of the class
   #methods of the class
