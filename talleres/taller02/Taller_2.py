@@ -8,16 +8,15 @@ def euclides (p,q):
 
 def Suma_grupo(start, nums, target):
 
-  if (start >= nums.length):
+  if (start >= len(nums)):
       return (target == 0);
-    
-    lopongo = Suma_grupo(start+1,nums, target - nums[start])
-    nolopongo = Suma_grupo(start+1,nums, target)
-    if (lopongo or nolopongo):
-        return true
-     else:
-         return false
-    
-
+      
+  se_toma = Suma_grupo(start+1 ,nums, target - nums[start])
   
-print(Suma_grupo(0,[2, 4, 8],10))
+  no_se_toma = Suma_grupo(start+1,nums, target)
+  
+  if (se_toma or no_se_toma):
+        return True
+  else:
+         return False
+     
