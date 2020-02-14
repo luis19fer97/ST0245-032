@@ -1,4 +1,4 @@
-
+# 1.1 algoritmo RECURSIVO que calcula la subsecuencia común más larga a dos cadenas de caracteres.
 def lcs(X, Y):
     if len(X) == 0 or len(Y) == 0:
         return []
