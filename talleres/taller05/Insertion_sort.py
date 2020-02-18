@@ -14,3 +14,4 @@ def insertionSort(a):
     return (a)
 
 
+""" La ecuación de complejidad para este caso es T(n) = c_2 n + c_1 donde c_2 y c_1 son parametros arbitrarios"""
