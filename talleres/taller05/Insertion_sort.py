@@ -14,4 +14,15 @@ def insertionSort(a):
     return (a)
 
 
-""" La ecuación de complejidad para este caso es T(n) = c_2 n + c_1 donde c_2 y c_1 son parametros arbitrarios"""
+""" la ecuación de complejidad para este caso es T(n) = c_2 n + c_1 donde c_2 y c_1 son parametros arbitrarios"""
+
+
+
+def suma(a,res = 0):
+    
+    for i in range(0,len(a)):
+
+        res = res +a[i]
+    return res
+
+print(suma((12,4)))
