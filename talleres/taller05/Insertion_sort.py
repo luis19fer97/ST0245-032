@@ -25,4 +25,9 @@ def suma(a,res = 0):
         res = res +a[i]
     return res
 
-print(suma((12,4)))
+# Recursivo:
+def sum(array, i=0):
+  if i>=len(array):
+    return 0
+  else:
+    return sum(array,i+1)+array[i]
