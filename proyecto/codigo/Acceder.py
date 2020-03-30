@@ -1,8 +1,8 @@
 
 
-def Acceder(data_array,val_data,val_estu = None):
+def Acceder(data_array,val_estu,val_data = None):
   if val_estu == None:
-    return data_array[val_data]
+    return data_array[val_estu]
   else:
-    return data_array[val_data][val_estu] 
+    return data_array[val_estu][val_data] 
 
