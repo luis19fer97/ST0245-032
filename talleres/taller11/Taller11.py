@@ -91,4 +91,6 @@ print(g.addArc("H","A","600"))
 print(g.getSucessors("A")) #
 print(g.getWeight("B","A"))
 """ NOTA:
-el algoritmo asume que el usuario sabe qué tantos nodos se le van a asignar al grafo, por tanto si se intenta asignar un arco y los nodos de éste sumados a los anteriores superan el tamaño ingresado por el usuario, el algoritmo no funciona, pues excede los límites
+el algoritmo asume que el usuario sabe qué tantos nodos se le van a asignar al grafo,
+por tanto si se intenta asignar un arco y los nodos de éste sumados a los anteriores superan el tamaño ingresado por el usuario,
+el algoritmo no funciona, pues excede los límites
